@@ -1,0 +1,27 @@
+div{
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    animation: mymove 5s infinite;
+}
+#Animation8{
+    animation-timing-function: linear;
+}
+#Animation9{
+    animation-timing-function: ease;
+}
+#Animation10{
+    animation-timing-function: ease-in;
+}
+#Animation11{
+    animation-timing-function: ease-out;
+}
+#Animation12{
+    animation-timing-function: ease-in-out;
+}
+@keyframes mymove{
+    from{left: 0px;}
+    to{left: 300px;}
+}

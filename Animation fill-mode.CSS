@@ -1,0 +1,30 @@
+
+.Animation1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: Animation1;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards   ;
+    animation-iteration-count: 2;
+    position: relative;
+}
+@keyframes Animation1{
+    from{top: 0px;}
+    to{top: 300px; background-color: red;}
+}
+.Animation2{
+    height: 200px;
+    width: 200px;
+    background-color: hotpink;
+    position: relative;
+    animation-name: Animation2;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+@keyframes Animation2{
+    from{top: 0px;}
+    to{top: 200px;}
+}

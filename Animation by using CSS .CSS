@@ -1,0 +1,114 @@
+.Animation1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    animation-name: Animation1;
+    animation-duration: 4s;
+}
+@keyframes Animation1{
+    from{background-color: red;}
+    to{background-color: yellow;}
+}
+.Animation2{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    animation-name: Animation2;
+    animation-duration: 6s;
+    position: relative;
+}
+@keyframes Animation2{
+    0%{background-color: orange;left: 0px;top: 0px;}
+    20%{background-color: greenyellow; left: 100px; top: 100px;}
+    40%{background-color: brown;left: 0px;top: 100px; }
+    60%{background-color: aqua;right: 0px;top: 100px; }
+    80%{background-color: blue;}
+    100%{background-color: red;}
+}
+.Animation3{
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    animation-name: Animation3;
+    animation-duration: 10s;
+    animation-delay: -2s;
+    position: relative;
+    animation-iteration-count: 4;
+}
+@keyframes Animation3{
+    20%{background-color: brown;left: 0px;right: 0px;}
+    40%{background-color: burlywood; left: 200px; top: 0px;}
+    60%{background-color: cadetblue;left: 200px;top: 200px;}
+    80%{background-color: yellow;left: 0px;top: 200px;}
+    100%{background-color: chartreuse; left: 0px; top: 0px;}
+}
+.Animation4{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    animation-name:Animation4;
+    animation-duration: 8s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+}
+@keyframes Animation4{
+    20%{background-color: aqua;left: 0px;top: 0px;}
+    40%{background-color: brown;left: 200px;top: 0px;}
+    60%{background-color: blue;left: 200px;top: 200px;}
+    80%{background-color: chartreuse;left: 0px;top: 200px;}
+    100%{background-color: chocolate;left: 0px;top: 0px;}
+}
+.Animation5{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: Animation5;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    position: relative;
+}
+@keyframes Animation5{
+    20%{background-color: aqua;left: 0px;top: 0px;}
+    40%{background-color: brown;left: 200px;top: 0px;}
+    60%{background-color: blue;left: 200px;top: 200px;}
+    80%{background-color: chartreuse;left: 0px;top: 200px;}
+    100%{background-color: chocolate;left: 0px;top: 0px;}
+}
+.Animation6{
+    width:200px;
+    height: 200px;
+    background-color:yellow ;
+    animation-name: Animation6;
+    animation-duration: 6s;
+    animation-direction: reverse;
+    animation-delay: 1s;
+    position: relative;
+}
+@keyframes Animation6{
+    20%{background-color: aqua;left: 0px;top: 0px;}
+    40%{background-color: brown;left: 200px;top: 0px;}
+    60%{background-color: blue;left: 200px;top: 200px;}
+    80%{background-color: chartreuse;left: 0px;top: 200px;}
+    100%{background-color: chocolate;left: 0px;top: 0px;}
+}
+.Animation7{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    animation-name: Animation7;
+    animation-duration: 10s;
+    position: relative;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+@keyframes Animation7{
+    20%{background-color: aqua;left: 0px;top: 0px;}
+    40%{background-color: brown;left: 200px;top: 0px;}
+    60%{background-color: blue;left: 200px;top: 200px;}
+    80%{background-color: chartreuse;left: 0px;top: 200px;}
+    100%{background-color: chocolate;left: 0px;top: 0px;}
+}
