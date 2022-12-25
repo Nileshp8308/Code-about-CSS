@@ -1,0 +1,10 @@
+.pone{
+    display: none;
+    background-color: orange;
+    border: 2px solid blue;
+    padding: 20px;
+}
+.p:hover .pone{
+    display: inline;
+    width: 200px;
+}

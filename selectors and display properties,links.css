@@ -1,0 +1,36 @@
+.p{
+    color: brown;
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.ptwo{
+    display: none;
+    background-color: orange;
+    padding: 20px;
+}
+.pthree:hover .ptwo{
+    display: block;
+    width: 200px;
+}
+.agile{
+    display: none;
+}
+.agile2{
+    display: block;
+    background-color: hotpink;
+    font-size: 25px;
+    width: 200px;
+}
+.agile3{
+    display: inline;
+    background-color: lightgreen;
+    font-size: 30px;
+    width: 100px;   
+}
+.agile4{
+    display: inline-block;
+    background-color: aqua;
+    color: red;
+    font-size: 35px;
+    width: 174px;
+}

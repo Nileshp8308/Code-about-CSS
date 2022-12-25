@@ -1,0 +1,57 @@
+.maindiv{
+    height: 347px;
+    width: 380px;
+    border: 1px solid black;
+    position: relative;
+    left: 225px;
+    top: 70px;
+    font-weight: bold;
+}
+.login{
+    position: relative;
+    left: 224px;
+    top: 78px;
+    color: black;
+    
+}
+.div2{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.div2 input[type=text]{
+    width: 361px;
+    height: 30px;
+}
+.btn{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(3, 91, 3);
+    width: 361px;
+    height: 30px;
+}.div3{
+    position: absolute;
+    height: 105px;
+    width: 356px;
+    background-color: whitesmoke;
+    top: 220px;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+    font-weight: bold;
+    top: 37px;
+    left: 10px;
+    height: 25px;
+    width: 55px;
+}
+.anchor{
+    position: absolute;
+    left: 230px;
+    top: 37px;
+}
+input[type=text]:focus {
+    border: 2px black;
+}

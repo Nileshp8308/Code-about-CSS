@@ -1,0 +1,38 @@
+.three{
+    display: none;
+}
+.two:hover .three{
+    display: inline;
+    border: 2px solid red;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+.four:active{
+    color: blue;
+}
+.five input[type=radio]:checked{
+    height: 100px;
+    width: 100px;
+}blue
+.six input[type=checkbox]:checked{
+    height: 100px;
+    width: 100px;
+}
+.seven input[type=text]{
+    background-color: silver;
+}
+.seven input[type=text]:focus{
+    background-color: aqua;
+    color: red;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.eight a:link{
+    color: green;
+}
+.eight a:visited{
+    color: red;
+}
+.eight a:active{
+    color:black ;
+}
